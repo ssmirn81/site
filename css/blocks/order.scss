@@ -1,0 +1,86 @@
+.order {
+  background: url('../../img/bg-5.jpg') center center / cover no-repeat;
+}
+
+.order__container {
+  background: url('../../img/texture-ride.png') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+}
+
+.form__column {
+  max-width: 100%;
+  flex: 1;
+}
+
+.form__row {
+  display: flex;
+  color: #fff;
+}
+
+
+.form__block-input {
+  border-radius: 5px;
+  background: #fff;
+  border: 1px grey solid;
+  width: 100%;
+  min-height: 33px;
+  padding: 7px 5px;
+  margin: 10px;
+}
+
+.form__block-title {
+  cursor: pointer;
+  color: #fff;
+}
+
+.form__block-textarea {
+  resize: none;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.radio {
+  opacity: 0;
+  position: absolute;
+}
+
+.choice__item {
+  display: flex;
+  margin-right: 10px;
+}
+
+.choice__btn {
+  position: relative; 
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 5px;
+
+  &::after  {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: orange;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+}
+
+.radio:checked + .choice__content .choice__btn:after {
+  opacity: 1;
+}
+
+.checkbox__input {
+  
+}

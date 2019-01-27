@@ -1,0 +1,36 @@
+.team {
+  background: url('../../img/photos/photo-team.jpg') center center / cover no-repeat;
+}
+
+.team__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.team-acco__trigger {
+  color: #fff;
+  text-transform: uppercase;
+  @include gagalin ();
+}
+
+.team-acco__pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.team-acco__text {
+  color: #fff;
+}
+.team-acco__text-title {
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.title {
+  // font-family: 'gagalin';
+  font-size: 72px;
+  color: #000;
+  line-height: 1.1;
+  margin-bottom: 54px;
+}
+
+.section-title {
+  font-size: 72px;
+  @include gagalin();
+  color: $yellow;
+  margin-bottom: 35px;
+  line-height: 1em;
+
+  &_clr {
+    &-black {color: $black;}
+  }
+
+  &_pos {
+    &-center {
+      text-align: center;
+    }
+  }
+
+  &_pos {
+    &-left {
+      text-align: left;
+    }
+  }
+}

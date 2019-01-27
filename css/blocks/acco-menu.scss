@@ -1,0 +1,63 @@
+.menu__section {
+  position: relative;
+  background: url('../../img/linebgr-0.png') center center / cover no-repeat;
+  padding: 40px;
+}
+
+.acco-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+.acco-menu__list {
+  display: flex;
+  justify-content: stretch;
+  height: 100%;
+}
+
+.acco-menu__item {
+  display: flex;
+
+  &:hover {
+    .acco-menu__text {
+      max-width: 500px;
+    }
+  }
+}
+
+.acco-menu__link {
+  position: relative;
+  display: block;
+  width: 80px;
+  flex: 1 0 auto;
+  background-image: url('../../img/linebgr-0.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  span {
+    position: absolute;
+    font-size: 40px;
+    bottom: 60px;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, 0) rotate(-90deg);
+    font-family: 'gagalin';
+  } 
+}
+
+.acco-menu__text {
+  background: rgba(#2f3234, 0.9);
+  color: #fff;
+  overflow: hidden;
+  max-width: 0;
+  transition: 0.3s;
+  span {
+    padding: 35px;
+    display: inline-block;
+    width: 500px;
+  }
+}
+

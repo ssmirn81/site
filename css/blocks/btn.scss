@@ -1,0 +1,25 @@
+.btn {
+  background: $orange;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  &:hover {
+    background: $red;
+  }
+
+  &_bg-black {
+    background: $black;
+    width: 110px;
+    &:hover {
+      background: $dark;
+    }
+  }
+}
+
+
+
+
