@@ -537,6 +537,9 @@ footer {
   display: -ms-flexbox;
   display: flex; }
 
+.logo {
+  cursor: pointer; }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
