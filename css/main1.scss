@@ -1,7 +1,7 @@
 //colors
 $orange: #e45028;
 $yellow: #f9b43b;
-$yellow2: #eb8c38;
+$yellow2: #f08c33;
 $black: #2f3234;
 $red: #c1401e;
 $dark: #1f2122;
@@ -20,6 +20,7 @@ $dark: #1f2122;
 @import "./blocks/hero.scss";
 @import "./blocks/header1.scss";
 @import "./blocks/best.scss";
+@import "./blocks/burger.scss";
 @import "./blocks/reviews.scss";
 @import "./blocks/order.scss";
 @import "./blocks/team.scss";

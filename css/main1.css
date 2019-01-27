@@ -472,7 +472,8 @@ footer {
   color: #fff;
   text-decoration: none;
   font-size: 13px;
-  font-weight: 500; }
+  font-weight: 500;
+  cursor: pointer; }
   .btn:hover {
     background: #c1401e; }
   .btn_bg-black {
@@ -519,6 +520,11 @@ footer {
   color: #fff;
   line-height: .95em;
   margin-top: -10px; }
+
+.arrow-down {
+  position: absolute;
+  top: 850px;
+  left: 450px; }
 
 .header {
   display: -webkit-box;
@@ -617,6 +623,82 @@ footer {
   font-family: 'lifehack';
   font-size: 24.14px;
   margin: 25px 0; }
+
+.burger {
+  background: url("../../img/bg-3.jpg"); }
+
+.burger__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.burder__content-desc {
+  padding: 0 0 10px 40px; }
+
+.burger__content-text {
+  color: #fff; }
+
+.burger__content-desc {
+  line-height: 1.7em; }
+
+.burger__content-text .section-title {
+  max-width: 250px; }
+
+.burder__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0 0; }
+
+.burder__price-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'gagalin', Helvetica, sans-serif;
+  font-size: 30px;
+  color: #e45028;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-right: 28px; }
+
+.burder__price-nbr {
+  font-size: 72px;
+  margin-right: 8px; }
+
+.burger__icon {
+  position: absolute; }
+
+.burger__icon-1 {
+  border-radius: 6px;
+  background: #f08c33;
+  height: 90px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'gagalin';
+  left: 10px;
+  top: 190px; }
+
+.burger__icon-kkal {
+  top: 620px;
+  left: 0; }
 
 .reviews {
   background: #2f3234;
@@ -907,12 +989,12 @@ footer {
     line-height: 2;
     left: 50%;
     color: #fff;
-    -webkit-transform: translate(-50%, 520%) rotate(-90deg);
-    -ms-transform: translate(-50%, 520%) rotate(-90deg);
-    transform: translate(-50%, 520%) rotate(-90deg);
-    padding-left: 50px;
+    -webkit-transform: translate(-50%, 550%) rotate(-90deg);
+    -ms-transform: translate(-50%, 550%) rotate(-90deg);
+    transform: translate(-50%, 550%) rotate(-90deg);
+    padding-left: 90px;
     font-family: 'gagalin';
-    width: 930px;
+    width: 1000px;
     height: 80px;
     background: rgba(20, 20, 20, 0.4); }
 

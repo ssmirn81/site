@@ -39,12 +39,12 @@
     line-height: 2;
     left: 50%;
     color: #fff;
-    -webkit-transform: translate(-50%, 520%) rotate(-90deg);
-    -ms-transform: translate(-50%, 520%) rotate(-90deg);
-    transform: translate(-50%, 520%) rotate(-90deg);
-    padding-left: 50px;
+    -webkit-transform: translate(-50%, 550%) rotate(-90deg);
+    -ms-transform: translate(-50%, 550%) rotate(-90deg);
+    transform: translate(-50%, 550%) rotate(-90deg);
+    padding-left: 90px;
     font-family: 'gagalin';
-    width: 930px;
+    width: 1000px;
     height: 80px;
     background: rgba(20, 20, 20, 0.4); }
 
