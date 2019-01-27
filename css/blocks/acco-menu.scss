@@ -33,18 +33,18 @@
   display: block;
   width: 80px;
   flex: 1 0 auto;
-  background-image: url('../../img/linebgr-0.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   span {
     position: absolute;
     font-size: 40px;
-    bottom: 60px;
+    line-height: 2;
     left: 50%;
     color: #fff;
-    transform: translate(-50%, 0) rotate(-90deg);
+    transform: translate(-50%, 520%) rotate(-90deg);
+    padding-left: 50px;
     font-family: 'gagalin';
+    width: 930px;
+    height: 80px;
+    background: rgba(20, 20, 20, 0.4);
   } 
 }
 
